@@ -1,0 +1,254 @@
+[2022-08-09 11:44:50:610] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 12680 (D:\Projects\SpringBootProjects\imall\target\classes started by 27850 in D:\Projects\SpringBootProjects\imall)
+[2022-08-09 11:44:50:610] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2022-08-09 11:44:51:295] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8000 (http)
+[2022-08-09 11:44:51:295] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-08-09 11:44:51:311] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2022-08-09 11:44:51:311] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2022-08-09 11:44:51:363] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2022-08-09 11:44:51:363] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 701 ms
+[2022-08-09 11:44:51:711] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-08-09 11:44:51:895] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8000"]
+[2022-08-09 11:44:51:910] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-08-09 11:44:51:910] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 1.477 seconds (JVM running for 2.337)
+[2022-08-09 11:45:01:320] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-08-09 11:45:01:320] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2022-08-09 11:45:01:320] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[2022-08-09 11:45:01:335] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 11:45:01:335] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 11:45:01:335] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 11:45:01:335] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 11:45:01:335] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang, 1111];
+[2022-08-09 11:45:01:367] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10003,"msg":"密码不能少于8位","data":null}
+[2022-08-09 11:46:02:841] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-08-09 11:46:05:303] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 3532 (D:\Projects\SpringBootProjects\imall\target\classes started by 27850 in D:\Projects\SpringBootProjects\imall)
+[2022-08-09 11:46:05:303] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2022-08-09 11:46:05:943] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8000 (http)
+[2022-08-09 11:46:05:943] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-08-09 11:46:05:959] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2022-08-09 11:46:05:959] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2022-08-09 11:46:06:006] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2022-08-09 11:46:06:006] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 656 ms
+[2022-08-09 11:46:06:396] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-08-09 11:46:06:568] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8000"]
+[2022-08-09 11:46:06:584] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-08-09 11:46:06:584] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 1.457 seconds (JVM running for 2.311)
+[2022-08-09 11:46:11:146] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-08-09 11:46:11:146] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2022-08-09 11:46:11:146] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[2022-08-09 11:46:11:162] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 11:46:11:162] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 11:46:11:162] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 11:46:11:162] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 11:46:11:162] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang, 1111];
+[2022-08-09 11:46:11:193] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10003,"msg":"密码不能少于8位","data":null}
+[2022-08-09 11:46:12:005] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 11:46:12:005] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 11:46:12:005] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 11:46:12:005] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 11:46:12:005] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang, 1111];
+[2022-08-09 11:46:12:005] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10003,"msg":"密码不能少于8位","data":null}
+[2022-08-09 11:46:52:993] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'password' is not present]
+[2022-08-09 12:22:20:853] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'password' is not present]
+[2022-08-09 12:22:38:666] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 12:22:38:666] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 12:22:38:666] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 12:22:38:666] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 12:22:38:667] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang, 1111];
+[2022-08-09 12:22:38:671] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10003,"msg":"密码不能少于8位","data":null}
+[2022-08-09 12:26:58:236] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 12:26:58:236] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 12:26:58:236] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 12:26:58:236] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 12:26:58:236] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang, 111111111111];
+[2022-08-09 12:26:58:255] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2022-08-09 12:26:58:677] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2022-08-09 12:30:40:923] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 12:30:40:923] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 12:30:40:923] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 12:30:40:923] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 12:30:40:923] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang, 111111111111];
+[2022-08-09 12:33:34:780] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-08-09 12:33:34:780] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2022-08-09 12:33:34:787] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2022-08-09 12:33:37:929] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 7760 (D:\Projects\SpringBootProjects\imall\target\classes started by 27850 in D:\Projects\SpringBootProjects\imall)
+[2022-08-09 12:33:37:932] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2022-08-09 12:33:38:608] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8000 (http)
+[2022-08-09 12:33:38:613] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-08-09 12:33:38:613] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2022-08-09 12:33:38:613] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2022-08-09 12:33:38:666] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2022-08-09 12:33:38:666] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 689 ms
+[2022-08-09 12:33:39:019] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-08-09 12:33:39:194] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8000"]
+[2022-08-09 12:33:39:205] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-08-09 12:33:39:206] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 1.46 seconds (JVM running for 2.308)
+[2022-08-09 12:33:52:174] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-08-09 12:33:52:174] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2022-08-09 12:33:52:179] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
+[2022-08-09 12:33:52:194] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 12:33:52:194] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 12:33:52:194] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 12:33:52:195] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 12:33:52:195] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang, 111111111111];
+[2022-08-09 12:33:52:215] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2022-08-09 12:33:52:616] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2022-08-09 12:33:52:687] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
+[2022-08-09 12:33:56:417] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 12:33:56:417] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 12:33:56:417] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 12:33:56:417] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 12:33:56:417] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang, 111111111111];
+[2022-08-09 12:38:30:221] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]
+[2022-08-09 12:39:56:010] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-08-09 12:39:56:011] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2022-08-09 12:39:56:018] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2022-08-09 12:39:59:196] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 17592 (D:\Projects\SpringBootProjects\imall\target\classes started by 27850 in D:\Projects\SpringBootProjects\imall)
+[2022-08-09 12:39:59:198] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2022-08-09 12:39:59:849] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8000 (http)
+[2022-08-09 12:39:59:854] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-08-09 12:39:59:854] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2022-08-09 12:39:59:855] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2022-08-09 12:39:59:902] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2022-08-09 12:39:59:902] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 658 ms
+[2022-08-09 12:40:00:253] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-08-09 12:40:00:425] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8000"]
+[2022-08-09 12:40:00:436] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-08-09 12:40:00:437] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 1.419 seconds (JVM running for 2.257)
+[2022-08-09 12:40:10:872] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-08-09 12:40:10:872] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2022-08-09 12:40:10:877] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
+[2022-08-09 12:40:10:892] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]
+[2022-08-09 12:40:13:515] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]
+[2022-08-09 12:40:16:285] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]
+[2022-08-09 12:40:17:448] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]
+[2022-08-09 12:40:18:077] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]
+[2022-08-09 14:31:32:294] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 14:31:32:294] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 14:31:32:295] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 14:31:32:295] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 14:31:32:296] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang, 111111111111];
+[2022-08-09 14:31:32:315] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2022-08-09 14:31:32:721] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2022-08-09 14:32:00:832] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-08-09 14:32:00:833] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2022-08-09 14:32:00:840] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2022-08-09 14:32:03:489] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 3868 (D:\Projects\SpringBootProjects\imall\target\classes started by 27850 in D:\Projects\SpringBootProjects\imall)
+[2022-08-09 14:32:03:492] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2022-08-09 14:32:04:253] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8000 (http)
+[2022-08-09 14:32:04:259] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-08-09 14:32:04:259] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2022-08-09 14:32:04:260] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2022-08-09 14:32:04:314] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2022-08-09 14:32:04:314] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 768 ms
+[2022-08-09 14:32:04:705] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-08-09 14:32:04:892] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8000"]
+[2022-08-09 14:32:04:905] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-08-09 14:32:04:908] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 1.615 seconds (JVM running for 2.573)
+[2022-08-09 14:32:15:509] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-08-09 14:32:15:509] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2022-08-09 14:32:15:515] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
+[2022-08-09 14:32:15:532] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 14:32:15:532] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 14:32:15:532] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 14:32:15:533] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 14:32:15:533] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang, 111111111111];
+[2022-08-09 14:32:15:555] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2022-08-09 14:32:15:989] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2022-08-09 14:32:52:325] [WARN] - com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:787) - i_mall - Thread starvation or clock leap detected (housekeeper delta=1m6s330ms277µs400ns).
+[2022-08-09 16:38:46:970] [WARN] - com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:787) - i_mall - Thread starvation or clock leap detected (housekeeper delta=2h5m54s660ms387µs100ns).
+[2022-08-09 16:38:47:001] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-08-09 16:38:47:001] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2022-08-09 16:38:47:235] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2022-08-09 16:38:50:236] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 860 (D:\Projects\SpringBootProjects\imall\target\classes started by 27850 in D:\Projects\SpringBootProjects\imall)
+[2022-08-09 16:38:50:236] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2022-08-09 16:38:50:892] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8000 (http)
+[2022-08-09 16:38:50:892] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-08-09 16:38:50:892] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2022-08-09 16:38:50:892] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2022-08-09 16:38:50:939] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2022-08-09 16:38:50:939] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 656 ms
+[2022-08-09 16:38:51:283] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-08-09 16:38:51:455] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8000"]
+[2022-08-09 16:38:51:470] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-08-09 16:38:51:470] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 1.411 seconds (JVM running for 2.28)
+[2022-08-09 16:39:05:333] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-08-09 16:39:05:334] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2022-08-09 16:39:05:338] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 4 ms
+[2022-08-09 16:39:05:354] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 16:39:05:354] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 16:39:05:354] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 16:39:05:355] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 16:39:05:355] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang, 111111111111];
+[2022-08-09 16:39:05:374] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2022-08-09 16:39:05:775] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2022-08-09 16:39:11:629] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'password' is not present]
+[2022-08-09 16:42:13:552] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]
+[2022-08-09 16:44:11:176] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 16:44:11:176] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 16:44:11:176] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 16:44:11:176] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 16:44:11:176] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang1, 1111];
+[2022-08-09 16:44:11:188] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10003,"msg":"密码不能少于8位","data":null}
+[2022-08-09 16:44:21:043] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]
+[2022-08-09 16:45:09:796] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-08-09 16:45:09:796] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2022-08-09 16:45:09:811] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2022-08-09 16:45:12:864] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 1416 (D:\Projects\SpringBootProjects\imall\target\classes started by 27850 in D:\Projects\SpringBootProjects\imall)
+[2022-08-09 16:45:12:864] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2022-08-09 16:45:13:520] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8000 (http)
+[2022-08-09 16:45:13:536] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-08-09 16:45:13:536] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2022-08-09 16:45:13:536] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2022-08-09 16:45:13:582] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2022-08-09 16:45:13:582] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 671 ms
+[2022-08-09 16:45:13:926] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-08-09 16:45:14:098] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8000"]
+[2022-08-09 16:45:14:114] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-08-09 16:45:14:114] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 1.43 seconds (JVM running for 2.265)
+[2022-08-09 16:45:19:117] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-08-09 16:45:19:117] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2022-08-09 16:45:19:133] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 16 ms
+[2022-08-09 16:45:19:149] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]
+[2022-08-09 16:46:07:984] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 16:46:07:984] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 16:46:07:984] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 16:46:07:985] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 16:46:07:985] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[zhang1, 1111];
+[2022-08-09 16:46:07:998] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10003,"msg":"密码不能少于8位","data":null}
+[2022-08-09 16:49:15:146] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 16:49:15:146] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 16:49:15:146] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 16:49:15:146] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 16:49:15:146] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[, 1111];
+[2022-08-09 16:49:15:149] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10001,"msg":"用户名不能为空","data":null}
+[2022-08-09 16:49:29:379] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 16:49:29:379] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 16:49:29:379] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 16:49:29:379] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 16:49:29:379] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[, ];
+[2022-08-09 16:49:29:382] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10001,"msg":"用户名不能为空","data":null}
+[2022-08-09 16:49:36:020] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 16:49:36:021] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 16:49:36:021] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 16:49:36:021] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 16:49:36:022] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[111, ];
+[2022-08-09 16:49:36:023] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10002,"msg":"密码不能为空","data":null}
+[2022-08-09 16:49:41:312] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 16:49:41:312] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 16:49:41:312] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 16:49:41:312] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 16:49:41:312] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[111, 111111];
+[2022-08-09 16:49:41:313] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10003,"msg":"密码不能少于8位","data":null}
+[2022-08-09 16:49:47:296] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 16:49:47:296] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 16:49:47:296] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 16:49:47:297] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 16:49:47:297] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[111, 1111113333];
+[2022-08-09 16:49:47:314] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2022-08-09 16:49:47:729] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2022-08-09 16:49:47:777] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
+[2022-08-09 16:49:49:259] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/register;
+[2022-08-09 16:49:49:259] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-09 16:49:49:259] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-09 16:49:49:259] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-09 16:49:49:259] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[111, 1111113333];

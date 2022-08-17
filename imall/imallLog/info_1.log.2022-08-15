@@ -1,0 +1,71 @@
+[2022-08-15 16:43:13:862] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 7352 (D:\Projects\SpringBootProjects\imall\target\classes started by 27850 in D:\Projects\SpringBootProjects\imall)
+[2022-08-15 16:43:13:865] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2022-08-15 16:43:14:526] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8000 (http)
+[2022-08-15 16:43:14:531] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-08-15 16:43:14:532] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2022-08-15 16:43:14:532] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2022-08-15 16:43:14:579] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2022-08-15 16:43:14:580] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 669 ms
+[2022-08-15 16:43:14:931] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-08-15 16:43:15:114] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8000"]
+[2022-08-15 16:43:15:125] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-08-15 16:43:15:127] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 1.447 seconds (JVM running for 2.328)
+[2022-08-15 16:47:55:744] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-08-15 16:47:59:129] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 16308 (D:\Projects\SpringBootProjects\imall\target\classes started by 27850 in D:\Projects\SpringBootProjects\imall)
+[2022-08-15 16:47:59:131] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2022-08-15 16:47:59:797] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8000 (http)
+[2022-08-15 16:47:59:802] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8000"]
+[2022-08-15 16:47:59:802] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2022-08-15 16:47:59:803] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2022-08-15 16:47:59:851] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2022-08-15 16:47:59:852] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 671 ms
+[2022-08-15 16:48:00:209] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-08-15 16:48:00:391] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8000"]
+[2022-08-15 16:48:00:402] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8000 (http) with context path ''
+[2022-08-15 16:48:00:404] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 1.469 seconds (JVM running for 2.481)
+[2022-08-15 16:49:11:759] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-08-15 16:49:11:760] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2022-08-15 16:49:11:765] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
+[2022-08-15 16:51:06:172] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/user/login;
+[2022-08-15 16:51:06:173] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-15 16:51:06:173] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-15 16:51:06:174] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.login;
+[2022-08-15 16:51:06:174] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[111, 111111, org.apache.catalina.session.StandardSessionFacade@1c42bfba];
+[2022-08-15 16:51:06:195] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2022-08-15 16:51:06:673] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2022-08-15 16:53:56:299] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/user/register;
+[2022-08-15 16:53:56:299] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-15 16:53:56:300] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-15 16:53:56:300] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-15 16:53:56:300] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[111, 111111];
+[2022-08-15 16:53:56:305] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10003,"msg":"密码不能少于8位","data":null}
+[2022-08-15 16:54:09:190] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/user/register;
+[2022-08-15 16:54:09:190] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-15 16:54:09:190] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-15 16:54:09:190] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.register;
+[2022-08-15 16:54:09:190] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[11111111, 11111111];
+[2022-08-15 16:54:09:212] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
+[2022-08-15 16:55:37:143] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/user/login;
+[2022-08-15 16:55:37:144] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-15 16:55:37:144] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-15 16:55:37:144] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.login;
+[2022-08-15 16:55:37:144] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[11111111, 11111111, org.apache.catalina.session.StandardSessionFacade@1c42bfba];
+[2022-08-15 16:55:37:153] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":{"id":15,"username":"11111111","password":null,"personalizedSignature":"","role":1,"createTime":1660553649000,"updateTime":1660553649000}}
+[2022-08-15 17:03:42:731] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/user/login;
+[2022-08-15 17:03:42:731] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-15 17:03:42:731] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-15 17:03:42:731] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.login;
+[2022-08-15 17:03:42:731] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[11111111, 11111111, org.apache.catalina.session.StandardSessionFacade@1c42bfba];
+[2022-08-15 17:03:42:738] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":{"id":15,"username":"11111111","password":null,"personalizedSignature":"","role":1,"createTime":1660553649000,"updateTime":1660553649000}}
+[2022-08-15 17:55:03:865] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/user/login;
+[2022-08-15 17:55:03:865] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-15 17:55:03:865] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-15 17:55:03:865] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.login;
+[2022-08-15 17:55:03:865] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[11111111, 11111111, org.apache.catalina.session.StandardSessionFacade@5ca9bcbb];
+[2022-08-15 17:55:03:873] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":{"id":15,"username":"11111111","password":null,"personalizedSignature":"签名01","role":1,"createTime":1660553649000,"updateTime":1660557292000}}
+[2022-08-15 18:04:01:685] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:47) - URL:http://localhost:8000/user/login;
+[2022-08-15 18:04:01:686] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:49) - HTTP_METHOD:POST;
+[2022-08-15 18:04:01:686] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:51) - IP:0:0:0:0:0:0:0:1;
+[2022-08-15 18:04:01:686] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:53) - CLASS_INFO:com.zhang.imall.controller.UserController.login;
+[2022-08-15 18:04:01:686] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - ARGS:[11111111, 11111111, org.apache.catalina.session.StandardSessionFacade@5ca9bcbb];
+[2022-08-15 18:04:01:693] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:68) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":{"id":15,"username":"11111111","password":null,"personalizedSignature":"签名01","role":1,"createTime":1660553649000,"updateTime":1660557292000}}
